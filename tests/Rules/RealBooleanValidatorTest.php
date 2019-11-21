@@ -9,6 +9,7 @@ class RealBooleanValidatorTest extends TestCase
 {
     /** @var RealBoolean $validator */
     private $validator;
+
     public function setUp(): void
     {
         parent::setUp();
