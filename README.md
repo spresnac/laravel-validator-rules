@@ -1,6 +1,6 @@
 # Some useful validator rules for laravel
 
-Master: [![Build Status](https://travis-ci.org/spresnac/laravel-validator-rules.svg?branch=master)](https://travis-ci.org/spresnac/laravel-validator-rules)  |  Develop: [![Build Status](https://travis-ci.org/spresnac/laravel-validator-rules.svg?branch=develop)](https://travis-ci.org/spresnac/laravel-validator-rules)
+[![Build Status](https://travis-ci.org/spresnac/laravel-validator-rules.svg)](https://travis-ci.org/spresnac/laravel-validator-rules)
             
 # Validators
 ## MimeType
