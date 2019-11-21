@@ -1,0 +1,40 @@
+{
+    "name": "spresnac/laravel-validator-rules",
+    "license": "MIT",
+    "description": "Some useful validator rules for laravel",
+    "keywords": ["php", "laravel"],
+    "type": "library",
+    "require": {
+      "php": "^7.3",
+        "illuminate/contracts": "^6.5",
+        "illuminate/validation": "^6.5"
+    },
+    "require-dev": {
+      "phpunit/phpunit": "^8"
+  },
+    "autoload": {
+      "psr-4": {
+        "spresnac\\Rules\\": "src/spresnac/Rules/"
+      }
+    },
+    "autoload-dev": {
+      "psr-4": {
+        "spresnac\\Rules\\tests\\": "tests/Rules/"
+      }
+    },
+    "minimum-stability": "stable",
+    "authors": [
+      {
+        "name": "Sascha Presnac",
+        "email": "presnac@gmail.com"
+      }
+    ],
+    "homepage": "https://github.com/spresnac/laravel-validator-rules",
+    "support": {
+      "issues": "https://github.com/spresnac/laravel-validator-rules/issues",
+      "source": "https://github.com/spresnac/laravel-validator-rules"
+    },
+    "scripts": {
+      "test-ci": "phpunit --coverage-clover coverage.xml"
+    }
+}
