@@ -36,6 +36,6 @@ class RealBoolean implements Rule
      */
     public function message(): string
     {
-        return 'The :attribute must be a boolean value';
+        return trans('validation.boolean');
     }
 }
