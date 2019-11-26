@@ -45,6 +45,6 @@ class MimeType implements Rule
      */
     public function message()
     {
-        return 'The file :attribute is not of an allowed type.';
+        return trans('validation.mimetypes');
     }
 }
