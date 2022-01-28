@@ -7,7 +7,7 @@ use spresnac\Rules\RealBoolean;
 
 class RealBooleanValidatorTest extends TestCase
 {
-    /** @var RealBoolean $validator */
+    /** @var RealBoolean */
     private $validator;
 
     public function setUp(): void
