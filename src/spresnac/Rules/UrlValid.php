@@ -10,10 +10,11 @@ class UrlValid implements Rule
 {
     public function passes($attribute, $value): bool
     {
-        if (!Str::of($value)->trim()->startsWith(['http://', 'https://', 'ftp://', 'sftp://'])) {
+        if (! Str::of($value)->trim()->startsWith(['http://', 'https://', 'ftp://', 'sftp://'])) {
             return false;
         }
         $response = Http::head($value);
+
         return $response->ok();
     }
 

@@ -8,7 +8,7 @@ use spresnac\Rules\UrlValid;
 
 class UrlValidValidatorTest extends TestCase
 {
-    /** @var UrlValid $validator */
+    /** @var UrlValid */
     private $validator;
 
     public function setUp(): void
@@ -30,7 +30,7 @@ class UrlValidValidatorTest extends TestCase
         $this->assertFalse($this->validator->passes('', 5));
     }
 
-   /** @test */
+    /** @test */
     public function non_existing_url_fails(): void
     {
         $result = $this->validator->passes('', 'https://example.com/non_existent_url');
